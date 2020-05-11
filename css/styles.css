@@ -1,0 +1,10 @@
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.teams .imeg {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}

@@ -12,7 +12,7 @@ h1 {
 }
 
 .teams > ul > li {
-  display: inline;
+  display: inline-block;
   margin-right: 40px;
 }
 

@@ -1,10 +1,22 @@
 h1 {
   text-align: center;
   text-decoration: underline;
+  color: #ffff00;
+  text-shadow: 4px 3px 3px #0000ff;
 }
 
 .teams .imeg {
   width: 150px;
   height: 150px;
   border-radius: 50%;
+}
+
+.teams > ul > li {
+  display: inline;
+  margin-right: 40px;
+}
+
+.teams > ul > li > ul > li {
+  display: inline;
+  margin-right: 5px;
 }

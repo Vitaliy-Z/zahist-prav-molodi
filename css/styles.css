@@ -1,23 +1,246 @@
-h1 {
+/* Сброс */
+
+.site-nav .button,
+.activity .elements,
+.teams .elements,
+.teams .social,
+.footer .elements,
+.footer .social {
+  margin: 0;
+  padding: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* Контейнер */
+
+.container,
+.site-nav {
+  padding: 40px 15px;
+}
+
+/* Шапка */
+
+.name {
+  margin-bottom: 30px;
+  padding: 40px 15px;
+
   text-align: center;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: inherit;
   text-decoration: underline;
-  color: #ffff00;
-  text-shadow: 4px 3px 3px #0000ff;
+  color: #fff951;
+  text-shadow: 0 0 10px #000000;
+  background-color: #39c4ef;
+  border-radius: 7px;
+}
+
+.site-nav .button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.site-nav .item {
+  margin: 5px;
+}
+
+.site-nav .link {
+  display: block;
+  text-decoration: none;
+  padding: 15px 30px;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: inherit;
+  color: #fff951;
+  text-shadow: 0 0 3px #000000;
+  background-color: #0a7c9e;
+  border-radius: 5px;
+}
+
+/* Основная страница */
+
+.title-text {
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  text-align: center;
+
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  color: #fff951;
+  text-shadow: 0 0 10px #000000;
+  background-color: #39c4ef;
+  border-radius: 7px;
+}
+
+.title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.text {
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: normal;
+  text-indent: 30px;
+  letter-spacing: 1px;
+}
+
+/* Фон */
+
+.about-us,
+.activity,
+.calendar {
+  background-color: #f1f1f1;
+}
+
+/* Про нас */
+
+.goals .text {
+  line-height: 1.7;
+}
+
+/* Новини */
+
+.news {
+  height: 400px;
+}
+
+/* Наші заходи */
+
+.activity .elements {
+  list-style: none;
+}
+
+.activity .camp {
+  margin-bottom: 70px;
+}
+
+.other-projects .item {
+  height: 200px;
+}
+/* Наша команда */
+
+.teams .elements {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.teams .item:not(:last-child) {
+  margin-right: 5px;
+  /* margin-bottom: 5px; */
+}
+
+.teams .team-name {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.teams .item {
+  padding: 10px 5px;
+  text-align: center;
+  background-color: var(--primary-white-color);
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 
 .teams .imeg {
-  width: 150px;
-  height: 150px;
+  display: block;
+  width: 190px;
+  height: 190px;
   border-radius: 50%;
-  margin-top: 20px;
 }
 
-.teams > ul > li {
-  display: inline-block;
-  margin-right: 40px;
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
 }
 
-.teams > ul > li > ul > li {
-  display: inline;
-  margin-right: 5px;
+.social .link:not(:last-child) {
+  margin-right: 20px;
+}
+
+/* Календар заходів */
+
+.calendar {
+  height: 400px;
+}
+
+/* Звіти проведених заходів */
+
+.reports {
+  height: 400px;
+}
+
+/* Футер */
+
+.footer {
+  padding: 20px 15px 10px 15px;
+  background-color: #39c4ef;
+}
+
+.footer .elements {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.footer .item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer .title {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.footer .button {
+  display: block;
+  padding: 15px 30px;
+
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: inherit;
+  color: #fff951;
+
+  text-shadow: 0 0 3px #000000;
+  background-color: #0a7c9e;
+  border-radius: 5px;
+}
+
+.footer .emblem {
+  width: 35px;
+  height: 35px;
+  box-shadow: 0 0 5px #f4f806;
+}
+
+.footer .link {
+  width: 60px;
+  height: 60px;
+  padding: 12px;
+  border-radius: 30px;
+  background-color: #ffffff;
 }

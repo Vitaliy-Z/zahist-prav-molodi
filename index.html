@@ -3,26 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>zhystmolodi</title>
+    <title>zahystmolodi</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Шапка -->
     <header>
-      <h1>Громадська організація "Захист прав молоді"</h1>
-      <section>
-        <ul>
-          <li>
-            <input type="button" value="Про нас" />
+      <div class="name">
+        <h1>Громадська організація <em>"Захист прав молоді"</em></h1>
+      </div>
+      <section class="site-nav">
+        <ul class="button">
+          <li class="item">
+            <a href="" class="link">Про нас</a>
           </li>
-          <li>
-            <input type="button" value="Заходи" />
+          <li class="item">
+            <a href="" class="link">Заходи</a>
           </li>
-          <li>
-            <input type="button" value="Наша команда" />
+          <li class="item">
+            <a href="" class="link">Наша команда</a>
           </li>
-          <li>
-            <input type="button" value="Контакти" />
+          <li class="item">
+            <a href="" class="link">Контакти</a>
           </li>
         </ul>
       </section>
@@ -30,239 +36,345 @@
     <!-- Основной контент -->
     <main>
       <!-- Про нас -->
-      <section>
-        <h2>Про нас</h2>
-        <p>
-          Спільнота молодих,активних,сучасних. Підвищуємо інтерес молоді до
-          активного відпочинку та історії України. За соціалізацію і національну
-          ідентичність
-        </p>
+      <section class="about-us">
+        <div class="container">
+          <h2 class="title-text">Про нас</h2>
+          <p class="text">
+            Ми спільнота молодих і активних, які прагнемо змін в Україні.
+          </p>
+          <p class="text">
+            <b>Наша місія </b>виховання соціально активних членів українського
+            суспільства, розвитку їх як високоморальної особистості, які
+            плекають українські традиції, цінності, володіють відповідними
+            історичними, юридичними, економічними знаннями, та в майбутньому
+            будуть здатні реалізувати свій потенціал на розбудову України і
+            зміцнення нашої державності.
+          </p>
+          <p class="text">
+            <b>Цілі членства організації:</b>
+          </p>
+          <ul class="goals">
+            <li class="text">
+              на власному прикладі виховувати освічену, активну та ідейну
+              молодь;
+            </li>
+            <li class="text">
+              бути носіями та прикладом української ідентичності;
+            </li>
+            <li class="text">
+              сприяти збереженню культурної та історичної спадщини;
+            </li>
+            <li class="text">
+              реалізація державної молодіжної політики та
+              національно-патріотичного виховання, співпраця з державними
+              органами та громадськими організаціями;
+            </li>
+            <li class="text">сприяння соціалізації дітей та молоді;</li>
+          </ul>
+        </div>
       </section>
       <!-- Новини -->
-      <section>
-        <h2>Новини</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          repellat ea tenetur cum voluptatibus facere et alias, soluta officiis
-          consequuntur sit corrupti, repellendus accusantium magnam illum
-          adipisci recusandae omnis eveniet!
-        </p>
+      <section class="news">
+        <div class="container">
+          <h2 class="title-text">Новини</h2>
+        </div>
       </section>
       <!-- Заходи -->
-      <section>
-        <h2>Заходи</h2>
-        <ul>
-          <li>
-            <h3>Теренові ігри</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
-              molestias fuga dolore, nemo, optio laborum veniam ipsam soluta
-              ipsa eius esse! Fugit eligendi rerum facilis sit ipsum impedit
-              expedita cumque.
-            </p>
-          </li>
-          <li>
-            <h3>Історичні табори</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
-              molestias fuga dolore, nemo, optio laborum veniam ipsam soluta
-              ipsa eius esse! Fugit eligendi rerum facilis sit ipsum impedit
-              expedita cumque.
-            </p>
-          </li>
-          <li>
-            <h3>Молодіжна газета</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
-              molestias fuga dolore, nemo, optio laborum veniam ipsam soluta
-              ipsa eius esse! Fugit eligendi rerum facilis sit ipsum impedit
-              expedita cumque.
-            </p>
-          </li>
-          <li>
-            <h3>Скайп-чаювання с ГО</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
-              molestias fuga dolore, nemo, optio laborum veniam ipsam soluta
-              ipsa eius esse! Fugit eligendi rerum facilis sit ipsum impedit
-              expedita cumque.
-            </p>
-          </li>
-        </ul>
+      <section class="activity">
+        <div class="container">
+          <h2 class="visually-hidden">Наші заходи</h2>
+          <section class="camp">
+            <h3 class="title-text">Наметово-таборові проекти</h3>
+            <ul class="elements">
+              <li>
+                <h4 class="title">«Теренові ігри»</h4>
+                <ul>
+                  <li class="item">
+                    <p class="text">
+                      <b>Теренова гра «Криївка УПА»</b> (Київська та
+                      Тернопільська області)
+                    </p>
+                  </li>
+                  <li class="item">
+                    <p class="text">
+                      <b>Теренова гра «Директорія УНР»</b> (Київська область)
+                    </p>
+                  </li>
+                  <li class="item">
+                    <p class="text">
+                      <b>Теренова гра «Криївки отаманів Соколовських»</b>
+                      (Житомирська область)
+                    </p>
+                  </li>
+                </ul>
+
+                <p class="text">
+                  Всі теренові ігри являють собою сукупність активних квестів,
+                  які тривають протягом двох діб в лісовій місцевості.
+                </p>
+                <p class="text">
+                  Заходи відбуваються у формі наметового таборування. Загальна
+                  кількість учасників становить близько 100 осіб. Всі учасники
+                  діляться на дві команди, де кожен з учасників зможе відчути
+                  себе вояком Української Повстанської Армії, армії Української
+                  Народної Республіки, чи партизаном повстанчих загонів отаманів
+                  Соколовських.
+                </p>
+                <p class="text">
+                  Теренові ігри є тематично-історичними і відбуваються в
+                  сакральних місцях героїчної боротьби Українців в ХХ столітті
+                  за свою державність.
+                </p>
+                <p class="text">
+                  Програма проведення теренових ігор передбачає окрім самої
+                  теренової гри тир, пейнтбол, історичну реконструкцію, лекції,
+                  ознайомлення з тактикою бою.
+                </p>
+                <p class="text">
+                  Організатори забезпечують харчуванням, питною водою та за
+                  необхідності наметами.
+                </p>
+              </li>
+              <li>
+                <h3 class="title">Історичний табір</h3>
+                <p class="text">
+                  - Це проект з неформальної освіти з історії України, який
+                  відбувається поза межами шкільних або університетських парт.
+                </p>
+                <p class="text">
+                  Програма історичних таборів передбачає, історичні
+                  майстеркласи, ознайомлення з прадавньою історією України,
+                  історією доби Київської Русі та козацтва, перегляд художніх та
+                  документальних кінофільмів, пейнтбол, тир, спортивне
+                  орієнтування, сплав на човнах.
+                </p>
+                <p class="text">
+                  Історичні табори відбуваються у формі наметового таборування.
+                  Загальна кількість учасників становить близько 50. Місцями
+                  проведення таборування є Київська область та місто Київ.
+                </p>
+                <p class="text">
+                  Організатори забезпечують харчуванням, питною водою та за
+                  необхідності наметами.
+                </p>
+              </li>
+            </ul>
+          </section>
+          <section class="other-projects">
+            <h3 class="title-text">Інші проекти</h3>
+            <ul class="elements">
+              <li class="item">
+                <h4 class="title">«Молодіжна газета»</h4>
+              </li>
+              <li class="item">
+                <h4 class="title">«Скайп чаювання»</h4>
+              </li>
+            </ul>
+          </section>
+        </div>
       </section>
       <!-- Наша команда -->
       <section class="teams">
-        <h2>Наша команда</h2>
-        <ul>
-          <li>
-            <img
-              src="./images/Vitaliy-O.jpg"
-              alt="Фото Віталій Онищук"
-              class="imeg"
-            />
-            <h3>Віталій Онищук</h3>
-            <ul>
-              <li>
-                <a href="">
-                  <img
-                    src="./images/facebook.svg"
-                    alt="Посилання на facebook"
-                  />
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <img
-                    src="./images/instagram.svg"
-                    alt="Посилання на instagram"
-                  />
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <img
-              src="./images/Katerina-Z.jpg"
-              alt="Фото Катерина Звєрєва"
-              class="imeg"
-            />
-            <h3>Катерина Звєрєва</h3>
-            <ul>
-              <li>
-                <a href="">
-                  <img
-                    src="./images/facebook.svg"
-                    alt="Посилання на facebook"
-                  />
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <img
-                    src="./images/instagram.svg"
-                    alt="Посилання на instagram"
-                  />
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <img
-              src="./images/Leonid-D.jpg"
-              alt="Фото Леонід Дорош"
-              class="imeg"
-            />
-            <h3>Леонід Дорош</h3>
-            <ul>
-              <li>
-                <a href="">
-                  <img
-                    src="./images/facebook.svg"
-                    alt="Посилання на facebook"
-                  />
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <img
-                    src="./images/instagram.svg"
-                    alt="Посилання на instagram"
-                  />
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <img
-              src="./images/Mariya-D.jpg"
-              alt="Фото Марія Донець"
-              class="imeg"
-            />
-            <h3>Марія Донець</h3>
-            <ul>
-              <li>
-                <a href="">
-                  <img
-                    src="./images/facebook.svg"
-                    alt="Посилання на facebook"
-                  />
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <img
-                    src="./images/instagram.svg"
-                    alt="Посилання на instagram"
-                  />
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <img
-              src="./images/Zoryana-L.jpg"
-              alt="Фото Зоряна Лівак"
-              class="imeg"
-            />
-            <h3>Зоряна Лівак</h3>
-            <ul>
-              <li>
-                <a href="">
-                  <img
-                    src="./images/facebook.svg"
-                    alt="Посилання на facebook"
-                  />
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <img
-                    src="./images/instagram.svg"
-                    alt="Посилання на instagram"
-                  />
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <img src="./images/" alt="Фото Анна Стариковська" class="imeg" />
-            <h3>Анна Стариковська</h3>
-            <ul>
-              <li>
-                <a href="">
-                  <img
-                    src="./images/facebook.svg"
-                    alt="Посилання на facebook"
-                  />
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <img
-                    src="./images/instagram.svg"
-                    alt="Посилання на instagram"
-                  />
-                </a>
-              </li>
-            </ul>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="title-text">Наша команда</h2>
+          <ul class="elements">
+            <li class="item">
+              <img
+                src="./images/Vitaliy-O.jpg"
+                alt="Фото Віталій Онищук"
+                class="imeg"
+              />
+              <p class="team-name">Віталій Онищук</p>
+              <ul class="social">
+                <li class="link">
+                  <a href="">
+                    <img
+                      src="./images/facebook.svg"
+                      alt="Посилання на facebook"
+                    />
+                  </a>
+                </li>
+                <li class="link">
+                  <a href="">
+                    <img
+                      src="./images/instagram.svg"
+                      alt="Посилання на instagram"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="item">
+              <img
+                src="./images/Katerina-Z.jpg"
+                alt="Фото Катерина Звєрєва"
+                class="imeg"
+              />
+              <p class="team-name">Катерина Звєрєва</p>
+              <ul class="social">
+                <li class="link">
+                  <a href="">
+                    <img
+                      src="./images/facebook.svg"
+                      alt="Посилання на facebook"
+                    />
+                  </a>
+                </li>
+                <li class="link">
+                  <a href="">
+                    <img
+                      src="./images/instagram.svg"
+                      alt="Посилання на instagram"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="item">
+              <img
+                src="./images/Leonid-D.jpg"
+                alt="Фото Леонід Дорош"
+                class="imeg"
+              />
+              <p class="team-name">Леонід Дорош</p>
+              <ul class="social">
+                <li class="link">
+                  <a href="">
+                    <img
+                      src="./images/facebook.svg"
+                      alt="Посилання на facebook"
+                    />
+                  </a>
+                </li>
+                <li class="link">
+                  <a href="">
+                    <img
+                      src="./images/instagram.svg"
+                      alt="Посилання на instagram"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="item">
+              <img
+                src="./images/Mariya-D.jpg"
+                alt="Фото Марія Донець"
+                class="imeg"
+              />
+              <p class="team-name">Марія Донець</p>
+              <ul class="social">
+                <li class="link">
+                  <a href="">
+                    <img
+                      src="./images/facebook.svg"
+                      alt="Посилання на facebook"
+                    />
+                  </a>
+                </li>
+                <li class="link">
+                  <a href="">
+                    <img
+                      src="./images/instagram.svg"
+                      alt="Посилання на instagram"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="item">
+              <img
+                src="./images/Zoryana-L.jpg"
+                alt="Фото Зоряна Лівак"
+                class="imeg"
+              />
+              <p class="team-name">Зоряна Лівак</p>
+              <ul class="social">
+                <li class="link">
+                  <a href="">
+                    <img
+                      src="./images/facebook.svg"
+                      alt="Посилання на facebook"
+                    />
+                  </a>
+                </li>
+                <li class="link">
+                  <a href="">
+                    <img
+                      src="./images/instagram.svg"
+                      alt="Посилання на instagram"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="item">
+              <img src="./images/" alt="Фото Анна Стариковська" class="imeg" />
+              <p class="team-name">Анна Стариковська</p>
+              <ul class="social">
+                <li class="link">
+                  <a href="">
+                    <img
+                      src="./images/facebook.svg"
+                      alt="Посилання на facebook"
+                    />
+                  </a>
+                </li>
+                <li class="link">
+                  <a href="">
+                    <img
+                      src="./images/instagram.svg"
+                      alt="Посилання на instagram"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- Календар заходів -->
+      <section class="calendar">
+        <div class="container">
+          <h2 class="title-text">Календар заходів</h2>
+        </div>
+      </section>
+      <!-- Звіти проведених заходів -->
+      <section class="reports">
+        <div class="container">
+          <h2 class="title-text">Звіти проведених заходів</h2>
+        </div>
       </section>
     </main>
     <!-- Подвал -->
-    <footer>
-      <h2>Контакти</h2>
-      <h3>Ми у соціальних мережах</h3>
-      <ul>
-        <li>
-          <a href="https://www.facebook.com/zahystmolodi/">
-            <img src="./images/facebook.svg" alt="Посилання на facebook" />
-          </a>
+    <footer class="footer">
+      <h2 class="title-text">Контакти</h2>
+      <ul class="elements">
+        <li class="item">
+          <b class="title">Приєднайтеся до нас:</b>
+          <button class="button">Заповнити анкету для участі</button>
         </li>
-        <li>
-          <a href="https://instagram.com/zahystmolodi?igshid=1tg4ci7b40q95">
-            <img src="./images/instagram.svg" alt="Посилання на instagram"
-          /></a>
+        <li class="item">
+          <b class="title">Ми у соціальних мережах:</b>
+          <ul class="social">
+            <li class="link">
+              <a href="https://www.facebook.com/zahystmolodi/">
+                <img
+                  src="./images/facebook.svg"
+                  alt="Посилання на facebook"
+                  class="emblem"
+                />
+              </a>
+            </li>
+            <li class="link">
+              <a href="https://instagram.com/zahystmolodi?igshid=1tg4ci7b40q95">
+                <img
+                  src="./images/instagram.svg"
+                  alt="Посилання на instagram"
+                  class="emblem"
+              /></a>
+            </li>
+          </ul>
         </li>
       </ul>
     </footer>
